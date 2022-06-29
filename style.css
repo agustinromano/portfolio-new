@@ -1,0 +1,24 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.my-pic {
+  background-color: rgba(150, 150, 150, 0.25);
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  box-shadow: 3px 3px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#me {
+  height: 190px;
+  width: 190px;
+  border-radius: 100px;
+}
