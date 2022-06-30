@@ -138,6 +138,12 @@ a:hover {
   cursor: pointer;
 }
 
+.main-page {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .my-pic {
   background-color: rgba(150, 150, 150, 0.25);
   height: 200px;

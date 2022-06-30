@@ -14,63 +14,81 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <div class="options">
-      <button>Home</button>
-      <button>Projects</button>
-      <button>Resume</button>
-    </div>
-    <header class="header">
-      <h1>Agustin Romano</h1>
-      <div class="my-pic">
-        <img src="profile.jpg" alt="me" id="me" />
+    <div class="main-page">
+      <div class="top-page">
+        <div class="options">
+          <button>Home</button>
+          <button>Projects</button>
+          <button>Resume</button>
+          <a
+            class="twitter-follow-button"
+            href="https://twitter.com/TheLordAgu"
+          >
+            Follow @TheLordAgu</a
+          >
+        </div>
+        <header class="header">
+          <h1>Agustin Romano</h1>
+          <div class="my-pic">
+            <img src="profile.jpg" alt="me" id="me" />
+          </div>
+          <p class="about-me">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            voluptates sunt iusto dignissimos, quo voluptas expedita cum nulla
+            eligendi sed eaque totam debitis? Atque quo dolor consectetur esse a
+            enim.
+          </p>
+        </header>
       </div>
-      <p class="about-me">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-        voluptates sunt iusto dignissimos, quo voluptas expedita cum nulla
-        eligendi sed eaque totam debitis? Atque quo dolor consectetur esse a
-        enim.
-      </p>
-    </header>
+      <div class="center-page">
+        <div class="projects">
+          <h1>Projects</h1>
+          <div class="display-projects">
+            <div class="listed-prcjects"></div>
+            <div class="listed-prcjects"></div>
+            <div class="listed-prcjects"></div>
+            <div class="listed-prcjects"></div>
+            <div class="listed-prcjects"></div>
+            <div class="listed-prcjects"></div>
+            <div class="listed-prcjects"></div>
+            <div class="listed-prcjects"></div>
+            <div class="listed-prcjects"></div>
+          </div>
+        </div>
 
-    <div class="projects">
-      <h1>Projects</h1>
-      <div class="display-projects">
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
-        <div class="listed-prcjects"></div>
+        <div class="twitter">
+          <a
+            class="twitter-timeline"
+            data-width="300"
+            data-height="400"
+            data-theme="dark"
+            href="https://twitter.com/TheLordAgu?ref_src=twsrc%5Etfw"
+            >Tweets by TheLordAgu</a
+          >
+          <script
+            async
+            src="https://platform.twitter.com/widgets.js"
+            charset="utf-8"
+          ></script>
+        </div>
       </div>
-    </div>
 
-    <footer class="footer">
-      <p>
-        Copyright ©
-        <script>
-          document.write(new Date().getFullYear());
-        </script>
-        Agustin Romano
-        <a href="https://github.com/agustinromano"
-          ><img src="logos/github.png" alt="github"
-        /></a>
-        <a href="https://www.linkedin.com/in/agustin-g-romano/"
-          ><img src="logos/linkedin.png" alt="linkedin"
-        /></a>
-      </p>
-    </footer>
+      <footer class="footer">
+        <p>
+          Copyright ©
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Agustin Romano
+          <a href="https://github.com/agustinromano"
+            ><img src="logos/github.png" alt="github"
+          /></a>
+          <a href="https://www.linkedin.com/in/agustin-g-romano/"
+            ><img src="logos/linkedin.png" alt="linkedin"
+          /></a>
+        </p>
+      </footer>
+    </div>
 
     <script src="script.js"></script>
   </body>
